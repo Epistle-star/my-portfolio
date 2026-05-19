@@ -1,0 +1,16 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fuelGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06B6D4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0891B2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#fuelGradient)"/>
+  <circle cx="300" cy="120" r="45" fill="white" opacity="0.2"/>
+  <path d="M 300 180 L 350 220 L 250 220 Z" fill="white" opacity="0.2"/>
+  <rect x="140" y="240" width="320" height="100" rx="10" fill="white" opacity="0.1"/>
+  <line x1="160" y1="270" x2="440" y2="270" stroke="white" stroke-width="2" opacity="0.2"/>
+  <line x1="160" y1="300" x2="440" y2="300" stroke="white" stroke-width="2" opacity="0.2"/>
+  <line x1="160" y1="330" x2="440" y2="330" stroke="white" stroke-width="2" opacity="0.2"/>
+  <text x="300" y="370" font-size="24" font-weight="bold" fill="white" text-anchor="middle" opacity="0.8">IoT Fuel Monitoring</text>
+</svg>
