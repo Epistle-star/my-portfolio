@@ -18,7 +18,7 @@ export type ProjectItem = {
 export const portfolioData = {
   name: "Ebube Epistle Onunwor",
   initials: "EO",
-  profileImageUrl: "",
+  profileImageUrl: "/portrait-1.png",
   role: "Backend Engineer & Technical Lead",
   bio: "Versatile software engineer with hands-on experience in backend development, system architecture, and technical support. I build scalable products, design practical APIs, and ship systems that stay reliable in production.",
   location: "Rivers State, Port Harcourt",

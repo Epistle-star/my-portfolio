@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { portfolioData } from "@/lib/portfolio-data";
 
 export default function AboutPage() {
@@ -5,12 +7,26 @@ export default function AboutPage() {
     <section className="space-y-8">
       <div className="section-card">
         <p className="text-xs font-semibold tracking-[0.2em] text-secondary">
-          ABOUT
+          WHO AM I
         </p>
-        <h1 className="mt-3 font-heading text-4xl md:text-5xl">Who I Am</h1>
-        <p className="mt-5 max-w-3xl text-base leading-8 text-muted-foreground">
-          {portfolioData.bio}
-        </p>
+        <div className="mt-3 grid items-center gap-6 md:grid-cols-[1fr_200px]">
+          <div>
+            <h1 className="font-heading text-4xl md:text-5xl">Who I Am</h1>
+            <p className="mt-5 max-w-3xl text-base leading-8 text-muted-foreground">
+              {portfolioData.bio}
+            </p>
+          </div>
+          <div className="relative h-[20rem] w-full overflow-hidden rounded-2xl border border-border/70 shadow-lg shadow-primary/15">
+            <Image
+              src="/portrait-2.png"
+              alt={`${portfolioData.name} portrait`}
+              fill
+              className="object-cover object-top"
+              sizes="200px"
+              priority
+            />
+          </div>
+        </div>
       </div>
 
       <div className="grid gap-4 md:grid-cols-2">

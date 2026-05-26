@@ -34,15 +34,15 @@ export default function Home() {
         <div className="grid items-stretch gap-6 lg:grid-cols-[1fr_260px]">
           <div>
             <p className="text-sm font-semibold tracking-[0.2em] text-secondary">
-              BACKEND ENGINEER & TECHNICAL LEAD
+              SOFTWARE ENGINEER & TECHNICAL LEAD
             </p>
             <h1 className="mt-4 max-w-4xl text-balance font-heading text-3xl leading-tight text-foreground md:text-5xl">
               Building digital products that feel reliable from day one.
             </h1>
             <p className="mt-5 max-w-3xl text-base leading-8 text-muted-foreground">
-              I am {portfolioData.name}. I design robust backend systems, lead
-              teams through complexity, and help businesses ship software that
-              scales.
+              I am {portfolioData.name}. I design robust software solutions,
+              lead teams through complexity, and help businesses ship software
+              that scales.
             </p>
             <div className="mt-7 flex flex-wrap items-center gap-3">
               <Button asChild size="lg" className="rounded-full px-6 text-sm">

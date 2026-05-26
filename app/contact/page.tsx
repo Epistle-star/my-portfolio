@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Download, Mail, MapPin, Phone } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { portfolioData } from "@/lib/portfolio-data";
@@ -14,8 +14,8 @@ export default function ContactPage() {
           Let&apos;s Build Something Valuable
         </h1>
         <p className="mt-4 max-w-2xl text-sm leading-7 text-muted-foreground">
-          I am available for backend engineering projects, technical leadership,
-          and product-focused consulting.
+          I am available for software projects, backend engineering projects,
+          technical leadership, and product-focused consulting.
         </p>
       </div>
 
@@ -67,6 +67,15 @@ export default function ContactPage() {
               target="_blank"
               rel="noreferrer">
               Connect on LinkedIn
+            </a>
+          </Button>
+          <Button
+            asChild
+            size="lg"
+            variant="outline"
+            className="rounded-full px-6 text-sm">
+            <a href="/Ebube_Onunwor_CV.PDF" download>
+              <Download className="size-4" /> Download CV
             </a>
           </Button>
         </div>

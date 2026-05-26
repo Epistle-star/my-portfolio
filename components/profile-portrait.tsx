@@ -12,13 +12,13 @@ export function ProfilePortrait({
   name,
   initials,
   imageUrl,
-  caption = "Profile image placeholder",
+  caption = "Ebube Epistle Onunwor",
 }: ProfilePortraitProps) {
   return (
     <aside className="relative flex min-h-64 items-center justify-center overflow-hidden rounded-2xl border border-border/70 bg-linear-to-br from-primary/20 via-secondary/15 to-accent/20 p-4">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.45),transparent_45%)] dark:bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.12),transparent_45%)]" />
 
-      <div className="relative h-44 w-44 overflow-hidden rounded-full border border-border bg-card/90 shadow-lg shadow-primary/20 backdrop-blur">
+      <div className="relative h-52 w-52 overflow-hidden rounded-full border border-border bg-card/90 shadow-lg shadow-primary/20 backdrop-blur">
         {imageUrl ? (
           <Image
             src={imageUrl}
