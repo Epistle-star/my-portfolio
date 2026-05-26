@@ -79,7 +79,7 @@ export const portfolioData = {
         "Built secure account-linked voting flows to reduce duplicate and unauthorized submissions.",
       ],
       stack: ["Next.js", "Node.js", "PostgreSQL", "Prisma"],
-      liveUrl: "",
+      liveUrl: "https://true-ballot-five.vercel.app/",
       imageUrl: "/projects/trueBallot-image.png",
     },
     {
@@ -93,7 +93,7 @@ export const portfolioData = {
         "Supported growth tracking features that help teams monitor progress over time.",
       ],
       stack: ["Next.js", "React", "Tailwind CSS", "REST APIs"],
-      liveUrl: "",
+      liveUrl: "https://outreach.jeedrop.com",
       imageUrl: "/projects/outreach-image.png",
     },
     {
@@ -121,11 +121,11 @@ export const portfolioData = {
         "Led dynamic purchase flow improvements with provider verification and transaction tracking.",
       ],
       stack: ["Express.js", "TypeScript", "PostgreSQL", "Drizzle ORM"],
-      liveUrl: "",
+      liveUrl: "https://www.nerdworkng.com",
       imageUrl: "/projects/nerdwork-image.png",
     },
     {
-      name: "EpiXa",
+      name: "EpiiXa",
       summary:
         "Identity and address verification platform with secure document upload, verification request management, and AI-service readiness for OCR and face-match workflows.",
       role: "Full Stack Engineer",
